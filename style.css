@@ -44,6 +44,7 @@ body {
 
 #navbar {
   transition: 0.3s;
+  top: 0;
 }
 
 .menu {
