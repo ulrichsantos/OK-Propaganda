@@ -1116,6 +1116,8 @@ button svg {
     width: 85%;
     height: 35vh;
   }
+
+  
 }
 
 @media (min-width: 768px) {
@@ -1322,11 +1324,20 @@ button svg {
   .marketing-desc {
     font-size: 16px;
   }
+
+  .slider-outdoors {
+    width: 85%;
+    height: 53vh;
+  }
 }
 
 @media (min-width: 1200px) {
   .slider-header {
     height: 40vh;
+  }
+
+  .slider-outdoors {
+    height: 63vh;
   }
 }
 
@@ -1334,11 +1345,17 @@ button svg {
   .slider-header {
     height: 50vh;
   }
+  .slider-outdoors {
+    height: 73vh;
+  }
 }
 
 @media (min-width: 1600px) {
   .slider-header {
     height: 60vh;
+  }
+  .slider-outdoors {
+    height: 80vh;
   }
 }
 
