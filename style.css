@@ -949,21 +949,71 @@ button svg {
 
 /* ---------- RESPONSIVE ---------- */
 
-@media (max-width: 390px){
+@media (max-width: 428px){
+  .expanded {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-image: linear-gradient(
+      to right,
+      #ff8b00,
+      #ff8001,
+      #ff6c00,
+      #fe5800
+    );
+    background-color: #ff4e00;
+  }
+
+  #expanded {
+    display: flex;
+  }
+
+  #menu-itens-expanded {
+    display: flex;
+    align-items: center;
+    height: 110px;
+  }
+
+  #menu-itens-expanded a {
+    display: flex;
+    align-items: center;
+    padding-bottom: 6px;
+  }
+
+  .menu-phone,
+  .menu-wpp,
+  .menu-email,
+  .menu-insta {
+    display: none;
+  }
+
+  .menu-expanded {
+    display: flex;
+  }
+
+  .menu-logo a {
+    padding-left: 0px;
+  }
+
+
   .menu-itens {
     display: none;
   }
   .slider-header {
-    height: 16vh;
+    height: 30vh;
+    background-size: contain;
   }
 
 
   .slider-header .arrows {
-    font-size: 25px;
+    font-size: 20px;
   }
   .dots span {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
   }
 
   section.company {
@@ -971,11 +1021,15 @@ button svg {
     margin-top: 15px;
   }
   .company-title {
-    font-size: 25px;
+    font-size: 28px;
   }
   .infos {
     width: 85%;
-    font-size: 14px;
+    font-size: 11px;
+  }
+  .bullets {
+    width: 100%;
+    padding-inline: 1px;
   }
   .bul-title {
     font-size: 38px;
@@ -983,6 +1037,7 @@ button svg {
   }
   .bul-info {
     font-size: 14px;
+    margin-bottom: 20px;
   }
 
   .client-attend h2 {
@@ -990,7 +1045,7 @@ button svg {
   }
   .slider-client {
     width: 85%;
-    height: 17vh;
+    height: 20vh;
   }
   
 
@@ -1003,8 +1058,8 @@ button svg {
     font-size: 1.4rem;
   }
   .slider-outdoors {
-    width: 89%;
-    height: 20vh;
+    width: 90%;
+    height: 30vh;
   }
   .dots-outdoors span {
     width: 12px;
@@ -1019,7 +1074,7 @@ button svg {
     font-size: 1.4rem;
   }
   .marketing-image {
-    width: 100%;
+    width: 110%;
   }
   .marketing-infos {
     width: 90%;
@@ -1033,7 +1088,11 @@ button svg {
     padding-block: 30px;
   }
   .marketing-desc {
-    font-size: 10px;
+    font-size: 12px;
+  }
+
+  .content {
+    padding: 55px 0;
   }
 
   .content-image {
