@@ -950,6 +950,10 @@ button svg {
 /* ---------- RESPONSIVE ---------- */
 
 @media (max-width: 428px){
+  body {
+    overflow-x: hidden!important;
+  }
+
   .expanded {
     width: 100%;
     height: 120vh;
@@ -974,7 +978,7 @@ button svg {
   #menu-itens-expanded {
     display: flex;
     align-items: center;
-    height: 110px;
+    height: 100vh;
   }
 
   #menu-itens-expanded a {
@@ -1003,8 +1007,7 @@ button svg {
     display: none;
   }
   .slider-header {
-    height: 30vh;
-    background-size: contain;
+    height: 25vh;
   }
 
 
@@ -1074,10 +1077,11 @@ button svg {
     font-size: 1.4rem;
   }
   .marketing-image {
-    width: 110%;
+    width: 120%;
   }
   .marketing-infos {
     width: 90%;
+
     padding-inline: 30px;
     display: flex;
     flex-wrap: wrap;
