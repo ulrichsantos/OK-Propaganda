@@ -319,7 +319,6 @@ section.company {
 }
 
 .company-title {
-  width: 70%;
   font-weight: bold;
   font-size: 80px;
   color: #ff8001;
@@ -450,6 +449,7 @@ section.company {
   bottom: 1%;
   width: 100%;
   text-align: center;
+  visibility: hidden;
 }
 
 .dots-client span {
@@ -513,7 +513,7 @@ section.company {
 .product-card {
   flex: 0 0 auto;
   width: 250px;
-  height: 450px;
+  height: 400px;
   margin-right: 40px;
 }
 
@@ -584,6 +584,7 @@ section.company {
 .outdoor-title {
   color: #ff8001;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .outdoors {
@@ -738,6 +739,7 @@ section.company {
 
 .sub-info {
   width: 30%;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -947,7 +949,134 @@ button svg {
 
 /* ---------- RESPONSIVE ---------- */
 
-@media (max-width: 767px) {
+@media (max-width: 390px){
+  .menu-itens {
+    display: none;
+  }
+  .slider-header {
+    height: 16vh;
+  }
+
+
+  .slider-header .arrows {
+    font-size: 25px;
+  }
+  .dots span {
+    width: 12px;
+    height: 12px;
+  }
+
+  section.company {
+    padding-inline: 0px;
+    margin-top: 15px;
+  }
+  .company-title {
+    font-size: 25px;
+  }
+  .infos {
+    width: 85%;
+    font-size: 14px;
+  }
+  .bul-title {
+    font-size: 38px;
+    margin-right: 15px;
+  }
+  .bul-info {
+    font-size: 14px;
+  }
+
+  .client-attend h2 {
+    font-size: 1.5rem;
+  }
+  .slider-client {
+    width: 85%;
+    height: 17vh;
+  }
+  
+
+  .client-category {
+    font-size: 1.4rem;
+  }
+
+
+  .outdoor-title {
+    font-size: 1.4rem;
+  }
+  .slider-outdoors {
+    width: 89%;
+    height: 20vh;
+  }
+  .dots-outdoors span {
+    width: 12px;
+    height: 12px;
+  }
+
+  .marketing {
+    padding-top: 40px;
+  }
+  .marketing-title {
+    width: 150%;
+    font-size: 1.4rem;
+  }
+  .marketing-image {
+    width: 100%;
+  }
+  .marketing-infos {
+    width: 90%;
+    padding-inline: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sub-info {
+    width: 90%;
+    height: auto;
+    padding-block: 30px;
+  }
+  .marketing-desc {
+    font-size: 10px;
+  }
+
+  .content-image {
+    display: none;
+  }
+
+  .content-info {
+    width: 100%;
+  }
+
+  .content-social {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    border-inline: none;
+    border-block: 3px solid black;
+  }
+
+  .content-title {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  .content-footer {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+  }
+
+  .content-name {
+    border-top: 3px solid black;
+  }
+
+  .content-name,
+  .content-social,
+  .content-group {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 767px) {
   .client-attend h2,
   .client-category,
   .outdoor-title {
@@ -1117,7 +1246,9 @@ button svg {
     width: 85%;
     height: 35vh;
   }
-
+  .client-container {
+    width: 100%;
+  }
   
 }
 
@@ -1224,7 +1355,6 @@ button svg {
     justify-content: center;
     margin-top: 30px;
     font-size: 42px;
-    width: 100%;
   }
 
   .slider-outdoors {
