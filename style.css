@@ -1160,7 +1160,7 @@ button svg {
 
 @media (min-width: 429px) {
   .slider-header {
-    height: 80vh;
+    height: 77vh;
   }
   .slider-header .arrows {
     font-size: 40px;
@@ -1263,7 +1263,7 @@ button svg {
 
 @media (min-width: 1280px) {
   .slider-header {
-    height: 83vh;
+    height: 80vh;
   }
   .slider-header .arrows {
     font-size: 50px;
