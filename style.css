@@ -1160,7 +1160,7 @@ button svg {
 
 @media (min-width: 429px) {
   .slider-header {
-    height: 31vh;
+    height: 74vh;
   }
   .slider-header .arrows {
     font-size: 40px;
@@ -1177,7 +1177,7 @@ button svg {
 
 @media (min-width: 833px) {
   .expanded {
-    width: 50vw;
+    width: 70vw;
   }
   .menu-expanded {
     padding-top: 0;
@@ -1215,7 +1215,7 @@ button svg {
   
   .slider-outdoors {
     width: 80%;
-    height: 40vh;
+    height: 70vh;
   }
 
 
@@ -1262,6 +1262,10 @@ button svg {
 
 
 
+  .content-image {
+    display: block;
+    width: 100%;
+  }
 
 
 
@@ -1271,7 +1275,7 @@ button svg {
 
 @media (min-width: 1280px) {
   .slider-header {
-    height: 74vh;
+    height: 83vh;
   }
   .slider-header .arrows {
     font-size: 50px;
@@ -1327,11 +1331,16 @@ button svg {
   .sub-info {
     height: 40vh;
   }
+  
+  .content-image {
+    display: block;
+    width: 100%;
+  }
 }
 
 @media (min-width: 1440px) {
   .slider-header {
-    height: 73vh;
+    height: 84vh;
   }
 
 
