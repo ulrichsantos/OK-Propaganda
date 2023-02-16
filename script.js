@@ -110,7 +110,42 @@ sliderHeader.addEventListener('mouseout', () => {
 
 // ----------  CLIENTS ---------- //
 
-let slideIndexClient = 0
+const clientCarroselFirst = document.querySelector('.client-carrosel>*:first-child')
+const clientCarroselLast = document.querySelector('.client-carrosel>*:last-child')
+
+/* let clientCarroselSlide = false;
+ */
+
+let index = 0;
+
+function carrosel() {
+  console.log(index)
+  clientCarroselFirst.style.transition = '0.8s ease'
+  clientCarroselLast.style.transition = '0.8s ease'
+
+
+  clientCarroselFirst.style.left = "calc(" + window.getComputedStyle(clientCarroselFirst).left + " + -100%)"
+  clientCarroselLast.style.left = "calc(" + window.getComputedStyle(clientCarroselLast).left + " + -100%)"
+  if (index === 2) {
+    clientCarroselFirst.style.transition = 'none'
+    clientCarroselFirst.style.left = '100%'
+  }
+  if (index === 4) {
+    clientCarroselLast.style.transition = 'none'
+    clientCarroselLast.style.left = '200%'
+    index = -1
+  }
+  
+  index++
+}
+
+let intervalClient = setInterval(() => {
+  carrosel()
+}, 3000)
+
+
+
+/* let slideIndexClient = 0
 let sliderClient = document.querySelector('.slider-client')
 let slidesClient = document.querySelector('.slides-client')
 let slideClient = document.querySelectorAll('.slide-client')
@@ -168,7 +203,7 @@ sliderClient.addEventListener('mouseout', () => {
   intervalClient = setInterval(() => {
     showSlideClient()
   }, 3000) // on mouseout from slide then again start Changing every image after 3  seconds
-})
+}) */
 
 // ----------  WORKS WE DID IT ---------- //
 

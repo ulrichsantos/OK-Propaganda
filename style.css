@@ -111,8 +111,8 @@ body {
 /* ---------- NAV-EXPANDED ---------- */
 
 .menu-nav {
-  display: none;
   overflow-y: hidden;
+  display: none;
 }
 
 .expanded {
@@ -367,6 +367,23 @@ section.company {
 
 /* ---------- CLIENTS ---------- */
 
+.client-carrosel {
+  width: 80%;
+  height: 45vh;
+  background-size: contain;
+  background-repeat: no-repeat repeat-y;
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.client-carrosel img {
+  width: 200%;
+  left: 0;
+  position: relative;
+  transition: 0.8s ease;
+}
+
 .client-attend {
   width: 100%;
   display: flex;
@@ -375,11 +392,12 @@ section.company {
   align-items: center;
   margin-block: 2%;
 }
-
+ 
 .client-attend h2 {
   color: #ff8001;
 }
 
+/*
 .slider-client {
   position: relative;
   width: 58%;
@@ -407,7 +425,7 @@ section.company {
   float: left;
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
 }
 
 .slide-client::before {
@@ -470,7 +488,7 @@ section.company {
 .dot-active {
   background-color: #ff8b00 !important;
   border: 2px solid #fff;
-}
+} */
 
 /* ---------- WORKS WE DID IT ---------- */
 
@@ -978,7 +996,7 @@ button svg {
   #menu-itens-expanded {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
   }
 
   #menu-itens-expanded a {
@@ -1007,7 +1025,7 @@ button svg {
     display: none;
   }
   .slider-header {
-    height: 25vh;
+    height: 22vh;
   }
 
 
