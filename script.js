@@ -16,6 +16,13 @@ function clickMenu() {
   isExpanded.addEventListener("click")
 }
 
+document.addEventListener('click', function(event) {
+  if (isExpanded && !navbar.contains(event.target)) {
+    itens.className = 'menu-nav'
+    isExpanded = false
+  }
+});
+
 // ----------  NAV-SCROLL ---------- //
 
 var prevScrollpos = window.pageYOffset

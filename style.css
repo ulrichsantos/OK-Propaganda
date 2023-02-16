@@ -116,7 +116,6 @@ body {
 }
 
 .expanded {
-  width: 20vw;
   height: 100vh;
 
   position: absolute;
@@ -973,7 +972,7 @@ button svg {
   }
 
   .expanded {
-    width: 100%;
+    width: 50%;
     height: 120vh;
     display: flex;
     flex-direction: column;
@@ -1177,7 +1176,7 @@ button svg {
 
 @media (min-width: 833px) {
   .expanded {
-    width: 80vw;
+    width: 50vw;
   }
   .menu-expanded {
     padding-top: 0;
