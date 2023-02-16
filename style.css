@@ -1024,6 +1024,7 @@ button svg {
   .menu-itens {
     display: none;
   }
+
   .slider-header {
     height: 22vh;
   }
@@ -1157,217 +1158,51 @@ button svg {
 
 }
 
-@media (min-width: 767px) {
-  .client-attend h2,
-  .client-category,
-  .outdoor-title {
-    font-size: 37px;
-    margin-inline: 10px;
+@media (min-width: 429px) {
+  .slider-header {
+    height: 31vh;
   }
-
-  .expanded {
-    width: 100vw;
-    height: calc(100vh - 90px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    background-image: linear-gradient(
-      to right,
-      #ff8b00,
-      #ff8001,
-      #ff6c00,
-      #fe5800
-    );
-    background-color: #ff4e00;
+  .slider-header .arrows {
+    font-size: 40px;
   }
-
-  #expanded {
-    display: flex;
-  }
-
-  #menu-itens-expanded {
-    display: flex;
-    align-items: center;
-    height: 110px;
-  }
-
-  #menu-itens-expanded a {
-    display: flex;
-    align-items: center;
-    padding-bottom: 6px;
-  }
-
-  .menu-phone,
-  .menu-wpp,
-  .menu-email,
-  .menu-insta {
-    display: none;
-  }
-
-  .menu-expanded {
-    display: flex;
-  }
-
-  .menu-logo a {
-    padding-left: 0px;
+  .dots span{
+    width: 16px;
+    height: 16px;
   }
 
   .company-title {
-    font-size: 40px;
-    width: 100%;
+    font-size: 44px;
   }
-
-  .infos {
-    width: 90%;
-    font-size: 14px;
-  }
-
-  .bul-title {
-    font-size: 55px;
-  }
-
-  .bul-info {
-    font-size: 14px;
-  }
-
-  .slider-item {
-    background-repeat: no-repeat;
-  }
-
-  .client-slider {
-    width: 85%;
-  }
-
-  .slider-outdoor {
-    width: 90%;
-    height: 415px;
-  }
-
-  .manual-navigation {
-    width: 650px;
-    margin-top: 51%;
-  }
-
-  .navigation-auto {
-    width: 650px;
-    margin-top: 51%;
-  }
-
-  .marketing-title {
-    font-size: 37px;
-  }
-
-  .marketing-image {
-    width: 80%;
-  }
-
-  .marketing-desc {
-    font-size: 10px;
-    text-align: center;
-  }
-
-  .marketing-infos {
-    width: 100%;
-  }
-
-  .content-image {
-    display: none;
-  }
-
-  .content-info {
-    width: 100%;
-  }
-
-  .content-social {
-    height: 65px;
-    display: flex;
-    align-items: center;
-    border-inline: none;
-    border-block: 3px solid black;
-  }
-
-  .content-title {
-    font-size: 40px;
-    margin-top: 20px;
-  }
-
-  .content-footer {
-    width: 85%;
-    display: flex;
-    flex-direction: column;
-    border-top: none;
-  }
-
-  .content-name {
-    border-top: 3px solid black;
-  }
-
-  .content-name,
-  .content-social,
-  .content-group {
-    width: 100%;
-  }
-
-  header {
-    margin-top: 0px;
-  }
-
-  .slider-header {
-    height: 32vh;
-    margin-top: 90px;
-  }
-
-  .slider-client {
-    width: 70%;
-    height: 35vh;
-  }
-
-  .slider-outdoors {
-    width: 85%;
-    height: 35vh;
-  }
-  .client-container {
-    width: 100%;
-  }
-  
 }
 
-@media (min-width: 768px) {
-  #menu-itens-expanded {
-    display: none;
-  }
-
+@media (min-width: 833px) {
   .expanded {
     width: 50vw;
   }
-
-  body {
-    height: 52vh;
+  .menu-expanded {
+    padding-top: 0;
   }
 
-  .slider-item {
-    background-repeat: no-repeat;
+  .company-title {
+    font-size: 44px;
+    margin-top: 30px;
   }
-
-  .slider-outdoor {
+  .infos {
     width: 90%;
-    height: 415px;
+    font-size: 16px;
+  }
+  .bullets {
+    padding-inline: 0px;
+    margin-bottom: -25px;
+  }
+  .bul-title {
+    font-size: 45px;
+  }
+  .bul-info {
+    font-size: 13px;
   }
 
-  .manual-navigation {
-    width: 90%;
-    margin-top: 45%;
-  }
 
-  .navigation-auto {
-    width: 90%;
-    margin-top: 45%;
-  }
-
-  .client-slider {
-    width: 65%;
-  }
 
   .client-attend h2,
   .client-category,
@@ -1376,147 +1211,74 @@ button svg {
     margin-inline: 10px;
   }
 
+
+  
+  .slider-outdoors {
+    width: 80%;
+    height: 40vh;
+  }
+
+
   .image-slide {
     max-height: 50vh;
   }
-
   .marketing-image {
-    width: 80%;
+    width: 90%;
   }
-
+  .marketing-title {
+    font-size: 43px;
+    width: 100%;
+  }
   .marketing-desc {
-    font-size: 11px;
+    font-size: 13px;
   }
-
   .marketing-infos {
     width: 100%;
     padding-inline: 10%;
   }
+  .sub-info {
+    height: 35vh;
+  }
 
+
+  .content {
+    padding: 75px 0;
+  }
   .content-image {
     display: none;
   }
-
   .content-info {
     width: 100%;
   }
-
   .content-social {
     height: 55px;
     display: flex;
     align-items: center;
   }
-
   .content-title {
     font-size: 40px;
     margin-top: 20px;
   }
 
-  .infos {
-    width: 84%;
-    font-size: 16px;
-  }
 
-  .bul-title {
-    font-size: 55px;
-  }
 
-  .bul-info {
-    font-size: 14px;
-  }
 
-  .slider-client {
-    width: 70%;
-    height: 40vh;
-  }
 
-  .company-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    font-size: 42px;
-  }
 
-  .slider-outdoors {
-    width: 80%;
-    height: 40vh;
-  }
 
-  .marketing-title {
-    font-size: 43px;
-    width: 100%;
-  }
 
-  .slider-header {
-    height: 34vh;
-  }
 }
 
-@media (min-width: 992px) {
-  body {
+@media (min-width: 1280px) {
+  .slider-header {
     height: 70vh;
   }
-
-  .content-image {
-    display: block;
+  .slider-header .arrows {
+    font-size: 50px;
   }
-
-  .slider-item {
-    background-repeat: no-repeat;
-  }
-
-  .slider-outdoor {
-    width: 85%;
-    height: 500px;
-  }
-
-  .manual-navigation {
-    width: 85%;
-    margin-top: 35%;
-  }
-
-  .navigation-auto {
-    width: 85%;
-    margin-top: 35%;
-  }
-
-  .client-slider {
-    width: 60%;
-  }
-
-  .content-image {
-    width: 50%;
-    display: block;
-  }
-  .content-info {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ff8b00;
-  }
-
-  .slider-header {
-    height: 34vh;
-  }
-
-  .company-title {
-    font-size: 57px;
-  }
-
-  .infos {
-    width: 90%;
-    font-size: 16px;
-  }
-
-  .client-attend h2 {
-    font-size: 55px;
-  }
-
-  .slider-client {
-    width: 75%;
-    height: 35vh;
+  .dots span {
+    width: 19px;
+    height: 19px;
   }
 
   .client-category,
@@ -1524,55 +1286,104 @@ button svg {
   .client-attend h2 {
     font-size: 55px;
   }
-
-  .marketing-title {
-    font-size: 55px;
+  .company-title {
+    margin-top: 0px;
+    font-size: 75px;
   }
 
-  .marketing-image img{
-    width: 85%;
-  }
 
-  .marketing-desc {
+  .bul-title {
+      font-size: 60px;
+      margin: 0 50px;
+  }
+  .bul-info {
+      font-size: 16px;
+      margin-bottom: 35px;
+  }
+  .infos {
+    width: 90%;
     font-size: 16px;
   }
 
-  .slider-outdoors {
-    width: 85%;
-    height: 53vh;
-  }
-}
 
-@media (min-width: 1200px) {
-  .slider-header {
+  .slider-outdoors {
+      width: 80%;
+      height: 72vh;
+  }
+
+
+  .marketing {
+    padding-top: 50px;
+  }
+  .marketing-title {
+    font-size: 55px;
+  }
+  .marketing-image img{
+    width: 85%;
+  }
+  .marketing-desc {
+      font-size: 16px;
+  }
+  .sub-info {
     height: 40vh;
   }
+}
+
+@media (min-width: 1440px) {
+  .slider-header {
+    height: 60vh;
+  }
+
+
+  .infos {
+    width: 80%;
+  }
+
+
+  .client-carrosel {
+    width: 78%;
+    height: 35vh;
+  }
+
 
   .slider-outdoors {
-    height: 63vh;
+    height: 77vh;
+  }
+
+
+  .sub-info {
+    height: 37vh;
+  }
+
+
+  .content-image {
+    display: block;
+    width: 100%;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1728px) {
   .slider-header {
-    height: 50vh;
+    height: 70vh;
   }
   .slider-outdoors {
     height: 73vh;
   }
-}
 
-@media (min-width: 1600px) {
-  .slider-header {
-    height: 60vh;
+
+  .sub-info {
+    height: 28vh;
   }
-  .slider-outdoors {
-    height: 80vh;
+
+
+  .content-image {
+    display: block;
+    width: 100%;
   }
 }
 
 @media (min-width: 1920px) {
   .slider-header {
-    height: 85vh;
+    height: 87vh;
   }
 }

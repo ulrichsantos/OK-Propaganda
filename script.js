@@ -12,6 +12,8 @@ function clickMenu() {
     itens.className = 'menu-nav'
     isExpanded = false
   }
+
+  isExpanded.addEventListener("click")
 }
 
 // ----------  NAV-SCROLL ---------- //
@@ -113,29 +115,29 @@ sliderHeader.addEventListener('mouseout', () => {
 const clientCarroselFirst = document.querySelector('.client-carrosel>*:first-child')
 const clientCarroselLast = document.querySelector('.client-carrosel>*:last-child')
 
-/* let clientCarroselSlide = false;
- */
-
 let index = 0;
+let restart = false;
 
 function carrosel() {
-  console.log(index)
   clientCarroselFirst.style.transition = '0.8s ease'
   clientCarroselLast.style.transition = '0.8s ease'
 
-
   clientCarroselFirst.style.left = "calc(" + window.getComputedStyle(clientCarroselFirst).left + " + -100%)"
   clientCarroselLast.style.left = "calc(" + window.getComputedStyle(clientCarroselLast).left + " + -100%)"
+
   if (index === 2) {
-    clientCarroselFirst.style.transition = 'none'
-    clientCarroselFirst.style.left = '100%'
+    if (!restart) {
+      clientCarroselFirst.style.transition = 'none'
+      clientCarroselFirst.style.left = '100%'
+    } else {
+      clientCarroselLast.style.transition = 'none'
+      clientCarroselLast.style.left = '-100%'
+    }
+
+    restart = !restart
+    index = 0
   }
-  if (index === 4) {
-    clientCarroselLast.style.transition = 'none'
-    clientCarroselLast.style.left = '200%'
-    index = -1
-  }
-  
+
   index++
 }
 
