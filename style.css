@@ -972,7 +972,7 @@ button svg {
   }
 
   .expanded {
-    width: 50%;
+    width: 100%;
     height: 120vh;
     display: flex;
     flex-direction: column;
@@ -1025,7 +1025,7 @@ button svg {
   }
 
   .slider-header {
-    height: 22vh;
+    height: 30vh;
   }
 
 
@@ -1061,12 +1061,18 @@ button svg {
     margin-bottom: 20px;
   }
 
+
+  .client-carrosel {
+    height: 20vh;
+  }
+
+
   .client-attend h2 {
     font-size: 1.5rem;
   }
   .slider-client {
     width: 85%;
-    height: 20vh;
+    height: 30vh;
   }
   
 
@@ -1159,7 +1165,7 @@ button svg {
 
 @media (min-width: 429px) {
   .slider-header {
-    height: 77vh;
+    height: 32vh;
   }
   .slider-header .arrows {
     font-size: 40px;
@@ -1167,6 +1173,10 @@ button svg {
   .dots span{
     width: 16px;
     height: 16px;
+  }
+
+  .client-carrosel {
+    height: 20vh;
   }
 
   .company-title {
@@ -1180,6 +1190,7 @@ button svg {
   }
   .menu-expanded {
     padding-top: 0;
+    display: none;
   }
 
   .company-title {
@@ -1214,7 +1225,7 @@ button svg {
   
   .slider-outdoors {
     width: 80%;
-    height: 70vh;
+    height: 40vh;
   }
 
 
@@ -1262,7 +1273,7 @@ button svg {
 
 @media (min-width: 1280px) {
   .slider-header {
-    height: 80vh;
+    height: 72vh;
   }
   .slider-header .arrows {
     font-size: 50px;
@@ -1280,6 +1291,10 @@ button svg {
   .company-title {
     margin-top: 0px;
     font-size: 75px;
+  }
+
+  .client-carrosel {
+    height: 40vh;
   }
 
 
@@ -1323,13 +1338,23 @@ button svg {
     display: block;
     width: 100%;
   }
+
+  .menu-expanded {
+    display: none;
+  }
 }
 
 @media (min-width: 1440px) {
   .slider-header {
-    height: 85vh;
+    height: 83vh;
   }
-
+  .slider-header .arrows {
+    font-size: 70px;
+  }
+  .dots span {
+    width: 23px;
+    height: 23px;
+  }
 
   .infos {
     width: 80%;
@@ -1337,8 +1362,8 @@ button svg {
 
 
   .client-carrosel {
-    width: 78%;
-    height: 35vh;
+    width: 80%;
+    height: 40vh;
   }
 
 
@@ -1356,12 +1381,47 @@ button svg {
     display: block;
     width: 100%;
   }
+
+  .menu-expanded {
+    display: none;
+  }
 }
 
 @media (min-width: 1728px) {
   .slider-header {
-    height: 90vh;
+    height: 72vh;
   }
+  .slider-header .arrows {
+    font-size: 70px;
+  }
+  .dots span {
+    width: 23px;
+    height: 23px;
+  }
+
+
+  .company-title {
+    font-size: 80px;
+  }
+  .infos {
+    width: 70%;
+    font-size: 16px;
+  }
+  .bullets {
+    width: 100%;
+    padding-inline: 1px;
+  }
+  .bul-title {
+    font-size: 50px;
+    margin-right: 15px;
+  }
+  .bul-info {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+
+
   .slider-outdoors {
     height: 73vh;
   }
@@ -1376,10 +1436,44 @@ button svg {
     display: block;
     width: 100%;
   }
+
+  .menu-expanded {
+    display: none;
+  }
 }
 
 @media (min-width: 1920px) {
   .slider-header {
     height: 87vh;
+  }
+
+  .menu-expanded {
+    display: none;
+  }
+
+  .client-carrosel {
+    width: 80%;
+    height: 55vh;
+  }
+
+
+  .company-title {
+    font-size: 85px;
+  }
+  .infos {
+    width: 60%;
+    font-size: 16px;
+  }
+  .bullets {
+    width: 100%;
+    padding-inline: 1px;
+  }
+  .bul-title {
+    font-size: 50px;
+    margin-right: 15px;
+  }
+  .bul-info {
+    font-size: 14px;
+    margin-bottom: 20px;
   }
 }
