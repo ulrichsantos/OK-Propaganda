@@ -1046,6 +1046,7 @@ button svg {
   }
   .company-title {
     font-size: 28px;
+    text-align: center;
   }
   .infos {
     width: 82%;
@@ -1086,6 +1087,7 @@ button svg {
 
   .outdoor-title {
     font-size: 1.4rem;
+    text-align: center;
   }
   .slider-outdoors {
     width: 90%;
