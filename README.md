@@ -17,7 +17,7 @@ http://okpropaganda.com.br/
 
 <h2> Functionalidades </h2>
 
-O site conta com algumas ferramentas de navegação como um menu side bar no canto superior direito abrindo navegação para todas as partes do site, a barra de menu no topo é escondida quando o usuário realizar a rolagem para baixo como mostrado na primeira imagem.
+O site conta com algumas ferramentas de navegação como um menu side bar no canto superior direito abrindo navegação para todas as partes, a barra de menu no topo é escondida quando o usuário realiza a rolagem da para baixo.
 
 ![gif menu](https://user-images.githubusercontent.com/102335999/225693584-7c22e79f-558d-4d0f-9588-a40f8d0f031f.gif)
 
@@ -25,7 +25,7 @@ Um menu no canto superior direito que leva aos contatos da empresa.
 
 ![gif menu insta](https://user-images.githubusercontent.com/102335999/225693948-41b188e4-af56-45e1-8394-716d76471c61.gif)
 
-O grande propósito do site era mostrar todos os produtos e serviços e o cliente gostaria que tudo fosse feito através de carroseis e imagens grandes!
+O grande propósito do site é mostrar todos os produtos e serviços, tudo isso em formato de carrosel e com grandes imagens, de acordo com a vontade do cliente.
 
 ![clientes](https://user-images.githubusercontent.com/102335999/225696090-9c80715f-1f85-4c39-9299-14c0f8be4c0c.gif)
 
