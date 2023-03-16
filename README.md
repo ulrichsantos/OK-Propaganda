@@ -15,7 +15,7 @@ http://okpropaganda.com.br/
 
 ![image](https://user-images.githubusercontent.com/102335999/225691110-eba22e7e-6ba8-4abb-8504-8e4ffabb306b.png)![image](https://user-images.githubusercontent.com/102335999/225691243-13f51a7d-5330-4c57-927a-1c5afcbe95de.png)
 
-<h2> Functionalidades </h2>
+<h2> Funcionalidades </h2>
 
 O site conta com algumas ferramentas de navegação como um menu side bar no canto superior direito abrindo navegação para todas as partes, a barra de menu no topo é escondida quando o usuário realiza a rolagem da para baixo.
 
